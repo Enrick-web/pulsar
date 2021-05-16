@@ -1,0 +1,28 @@
+footer{
+    height: auto;
+    padding: 50px 150px;
+}
+footer .container{
+    flex: 1;
+    gap: 50px;
+    height: 100%;
+    align-items: start;
+}
+footer .container hr{
+    padding: 2px 0;
+    background-color: #333;
+    margin: 10px auto;
+}
+footer .container h3{
+    font-size: 1.6em;
+}
+footer .container ul li{
+    margin-bottom: 10px;
+    transform: scale(1);
+    transition: all .2s ease;
+    cursor: pointer;
+    font-weight: 800;
+}
+footer .container ul li:hover{
+    transform: scale(1.09);
+}

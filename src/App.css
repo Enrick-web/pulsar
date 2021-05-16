@@ -1,0 +1,62 @@
+/* MY FONTS = font-family: 'Montserrat', sans-serif; font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Raleway:wght@100;200;300;400&display=swap');
+@import './params.css';
+
+/* FLEXBOX */
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-row_reverse{
+  flex-direction: row-reverse;
+}
+.flex-column{
+  flex-direction: column;
+}
+/* FLEXBOX END */
+/* GRID */
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+/* GRID END */
+/* BTN COMPOSANTS & LINKS */
+.btn{
+  padding: 10px 15px;
+  border: 2px solid;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  cursor: pointer;
+  transform: scale(1);
+  transition: all .2s ease;
+}
+.btn:hover{
+  background: #333;
+  transform: scale(1.1);
+  color: whitesmoke;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #333;
+  padding-bottom: 10px;
+}
+.active{
+  border-bottom: 4px solid royalblue;
+}
+/* BTN COMPOSANTS & LINKS END */
+/* CONTAINER */
+.container{
+  width: auto;
+  height: auto;
+  padding: 50px;
+}
+/* CONTAINER END */
