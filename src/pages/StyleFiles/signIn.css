@@ -1,0 +1,64 @@
+.signin{
+    justify-content: space-between;
+}
+.signin .box-txt,
+.signin .form-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 60vh;
+    flex-direction: column;
+}
+.signin .box-txt{
+    /* color: #f1f1f1; */
+}
+.signin .box-txt h3{
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+.signin .box-txt p{
+    font-size: 1.2rem;
+}
+.signin .form-box{
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signin .form-box form{
+    width: 60%;
+    height: 100;
+    padding: 50px;
+    border-radius: 1rem;
+}
+.signin .form-box form div{
+    padding: .9rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.signin .form-box form div label{
+    font-size: 1.2rem;
+    flex: 2;
+    color: #fff;
+    text-align: right;
+    padding-right: 30px;
+}
+.signin .form-box form div input{
+    flex: 2;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.541);
+    padding: 10px 20px;
+    outline: none;
+    font-size: 1rem;
+}
+.signin .form-box form .btn{
+    width: 100%;
+    margin: 20px auto;
+}
+.signin .form-box a{
+    text-align: center;
+    color: #fff;
+}

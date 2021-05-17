@@ -1,6 +1,8 @@
 import React from 'react'
-import { clients, headerHome, invoice, prices, urssaf } from '../Data/Data';
+import { clients, headerHome, invoice, urssaf } from '../Data/Data';
 import HeroSection from '../components/HeroSection/HeroSection';
+import GridPrices from '../components/GridPrices/GridPrices';
+import Testimonials from '../components/Testimonials/Testimonials';
 
 function Home() {
     return (
@@ -9,6 +11,8 @@ function Home() {
             <HeroSection {...invoice} />
             <HeroSection {...clients} />
             <HeroSection {...urssaf} />
+            <GridPrices />
+            <Testimonials />
         </div>
     )
 }

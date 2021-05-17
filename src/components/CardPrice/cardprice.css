@@ -1,0 +1,35 @@
+.card-formul{
+    box-shadow: 2px 4px 15px rgba(51, 51, 51, 0.315);
+    padding: 100px 50px;
+    height: auto;
+    border-radius: 15px;
+    transform: scale(1);
+}
+.card-formul:hover{
+    transform: scale(1.1);
+}
+.card-formul h2{
+    font-size: 2rem;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    margin-bottom: 20px;
+}
+.card-formul p{
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.card-formul ul{
+    text-align: center;
+}
+.card-formul ul li{
+    padding: 5px;
+    font-weight: 800;
+}
+.card-formul h3{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+}
+.formule-scale{
+    transform: scale(1.06);
+}

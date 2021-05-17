@@ -33,7 +33,7 @@
 .hero img{
     flex: 1;
     max-width: 900px;
-    padding: 0 150px;
+    padding: 0 50px;
     object-fit: cover;
 }
 .hero .btn{

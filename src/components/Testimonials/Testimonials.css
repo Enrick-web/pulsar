@@ -1,0 +1,35 @@
+
+.testimonial{
+    padding: 50px;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.testimonial h2{
+    font-size: 3rem;
+}
+.box-avis{
+    overflow-x: scroll;
+    width: 80%;
+    display: flex;
+}
+.avis{
+    border-radius: 1rem;
+    padding: 30px;
+    min-width: 350px;
+    height: 200px;
+    border-radius: 5%;
+    margin: 0px 30px 50px 30px;
+    color: rgb(5, 2, 2);
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.avis blockquote{
+    margin-bottom: 5px;
+    padding: 10px;
+}
